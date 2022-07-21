@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.ClientAccess", "API.Cli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.DataAccess", "API.DataAccess\API.DataAccess.csproj", "{773F6B79-1117-4127-B0EF-36B7B47866C4}"
 EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "App.Client", "App.Client\App.Client.esproj", "{068F7C98-5C0C-4EAD-9E6E-13E5801C5382}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,12 @@ Global
 		{773F6B79-1117-4127-B0EF-36B7B47866C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{773F6B79-1117-4127-B0EF-36B7B47866C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{773F6B79-1117-4127-B0EF-36B7B47866C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{068F7C98-5C0C-4EAD-9E6E-13E5801C5382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{068F7C98-5C0C-4EAD-9E6E-13E5801C5382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{068F7C98-5C0C-4EAD-9E6E-13E5801C5382}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{068F7C98-5C0C-4EAD-9E6E-13E5801C5382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{068F7C98-5C0C-4EAD-9E6E-13E5801C5382}.Release|Any CPU.Build.0 = Release|Any CPU
+		{068F7C98-5C0C-4EAD-9E6E-13E5801C5382}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
