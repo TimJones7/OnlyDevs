@@ -9,6 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 //  Register Services
 
+//This registers the classes for GraphQL to map Queries and Mutations to
 builder.Services.AddGraphQLServer()
     .AddQueryType<Query>()
     .AddMutationType<Mutation>();
@@ -37,6 +38,7 @@ app.UseWebSockets();
 
 app.UseEndpoints(endpoints =>
 {
+    //GraphQL is our single endpoint
     endpoints.MapGraphQL();
 });
 
